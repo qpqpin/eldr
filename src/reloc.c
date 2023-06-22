@@ -92,7 +92,7 @@ static inline void apply_relocation(const Elf64_Rela *relocation,
 }
 
 /**
- * @brief Performs relocations for a given parsed ELF executable.
+ * @brief Performs relocation-fixing for the given parsed ELF executable.
  * @param binary A structure containing parsed ELF data.
  * @param size   Size of relocation table.
  * @param pltrel Boolean argument dictating how we'll be relocating the data.
