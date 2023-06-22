@@ -63,7 +63,7 @@ static inline void *resolve_reloc_symbol(const char *symbol) {
 }
 
 /**
- * @brief Resolves a symbol within our own symbol table. (symbols[])
+ * @brief Applies changes to the data referenced in the given relocation table entry.
  * @param relocation Entry within the relocation table.
  * @param ptr        A pointer to a symbol.
  * @param address    Address thats calculated from the offset in the relocation entry + base address value.
