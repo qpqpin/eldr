@@ -121,7 +121,7 @@ void relocate_data(elf_t *binary,
     void *symbol_ptr = resolve_reloc_symbol(symbol_name);
 
     if (!symbol_ptr)
-      symbol_ptr = dlsym(RTLD_DEFAULT, symbol_name);
+      symbol_ptr = dlsym(NULL, symbol_name);
 
 #ifdef DEBUG
   dbglog("Relocating [%s] [off: 0x%lx] -> [0x%lx]\n", symbol_name, 
