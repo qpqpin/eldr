@@ -2,7 +2,7 @@
 A small, compact ELF manual mapper.
 
 <div align="center">
-    <img src="https://github.com/qpqpin/eldr/assets/131700499/2d2baa36-c640-4fdd-944f-188a2c001321" width="750px"><br>
+    <img src="https://github.com/qpqpin/eldr/assets/131700499/f669f134-929b-4d9c-b62d-3b1fa0f3fc12" width="750px"><br>
 </div>
 
 ## Description
