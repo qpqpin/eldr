@@ -104,7 +104,7 @@ void relocate_data(elf_t *binary,
   Elf64_Rela *relocations = binary->relocations;
 
   if (pltrel)
-    relocations = (relocations + (size / sizeof(*relocations)));
+    relocations = (relocations + (size / sizeof(Elf64_Rela)));
 
   symbols[0].ptr = stdin, symbols[1].ptr = stdout;
   symbols[2].ptr = stderr;
